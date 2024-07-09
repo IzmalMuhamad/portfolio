@@ -202,6 +202,7 @@ nav ul li a:hover::after {
   transform: translateY(-10px);
 }
 
+/* ----------portfolio---------- */
 #portfolio {
   padding: 50px 0;
 }
@@ -269,7 +270,7 @@ nav ul li a:hover::after {
   height: 100%;
 }
 
-.btn{
+.btn {
   display: block;
   margin: 50px auto;
   width: fit-content;
@@ -281,6 +282,108 @@ nav ul li a:hover::after {
   transition: 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ff4f00;
+}
+
+/* ----------contact---------- */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  /* background-color: lightblue; */
+  flex-basis: 35%;
+}
+
+.contact-right {
+  /* background-color: lightblue; */
+  flex-basis: 60%;
+}
+
+/* .contact-left a {
+  background-color: green;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  text-decoration: none;
+  color: white;
+} */
+
+.contact-left p {
+  /* background-color: gray; */
+  margin-top: 30px;
+}
+
+.contact-left p i {
+  /* background-color: gray; */
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: .5s;
+}
+
+.social-icons a:hover {
+  color: #ff4f00;
+  transform: translateY(-5px);
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input, form textarea {
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  font-size: 18px;
+  outline: none;
+  background-color: #262626;
+  color: white;
+  margin: 10px 0px;
+  padding: 15px;
+}
+
+form .btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn.btn2 {
+  background-color: #ff4f00;
+  display: inline-block;
+  /* margin-top: 20px;
+  width: fit-content;
+  border: none;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s; */
+}
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0px;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.copyright span {
+  color: #ff4f00;
 }
